@@ -3,7 +3,7 @@
     <router-view></router-view>
     <div class="play">
       <audio :src="songDetail.url" autoplay controls loop></audio>
-      <p>{{songDetail.name}}--{{songDetail.author}}</p>
+      <p>{{songDetail.name}}{{songDetail.author}}</p>
     </div>
   </div>
 </template>
